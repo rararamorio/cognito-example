@@ -1,0 +1,6 @@
+# cognito-example
+idTokenの認証チェックロジックのサンプル
+
+tokenをチェックし内容を取得するだけの場合AWS関連のライブラリは不要
+
+OpenSSLを使って公開鍵を作成してその鍵を用いてtokenのチェックしている
